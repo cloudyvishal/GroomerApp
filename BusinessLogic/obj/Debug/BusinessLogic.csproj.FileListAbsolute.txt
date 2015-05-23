@@ -1,0 +1,13 @@
+G:\Projects_Under_Company\GroomerSandbox\BusinessLogic\bin\Debug\BusinessLogic.dll
+G:\Projects_Under_Company\GroomerSandbox\BusinessLogic\bin\Debug\BusinessLogic.pdb
+G:\Projects_Under_Company\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+G:\Projects_Under_Company\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.dll
+G:\Projects_Under_Company\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.pdb
+G:\Projects_Under_Company\GroomerSandbox\BusinessLogic\bin\Debug\DataBaseHandler35.dll
+G:\Projects_Under_Company\GroomerSandbox\BusinessLogic\bin\Debug\DataBaseHandler35.pdb
+J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\bin\Debug\BusinessLogic.dll
+J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\bin\Debug\BusinessLogic.pdb
+J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\bin\Debug\DataBaseHandler35.pdb
+J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.dll
+J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.pdb

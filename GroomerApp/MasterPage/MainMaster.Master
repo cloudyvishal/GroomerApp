@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="GroomerApp.MasterPage.MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Fritzy's Groomer</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <%--<meta http-equiv="refresh" content="0"/>--%>
+    <%-- SCREEN STYLE --%>
+    <link href="../Style/screen.css" rel="stylesheet" media="all" type="text/css" id="stylesheet" />
+    <link href="../Style/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="window.history.go(1);" oncontextmenu="return false;">
+    <form id="form1" runat="server">
+        <!-- LOGO IMAGE DIV STATRS -->
+        <div class="maincontainer">
+        </div>
+        <!-- LOGO IMAGE DIV ENDS-->
+        <div class="contentainer">
+            <div class="containwrapper">
+                <!-- HEADER STARTS -->
+                <div class="header">
+                    <div class="top_t">
+                        <div class="top_tl">
+                            <div class="top_tr">
+                                <div class="headercontent">
+                                    <div class="headRight">
+                                        <a href="Dashboard.aspx" title="Home" accesskey="4">Home</a>&nbsp;| <a href="CalendarView.aspx"
+                                            title="Calendar Day View" accesskey="5">Calendar</a>&nbsp;| <a href="Inventory.aspx"
+                                                title="Inventory" accesskey="5">Inventory</a>&nbsp;| <a href="ManageProfile.aspx"
+                                                    title="Manage Profile" accesskey="2">Manage Profile</a>&nbsp;| <a href="StatusSummary.aspx"
+                                                        title="Stat" accesskey="6">Stats</a>&nbsp;|&nbsp;<a href="Default.aspx" title="Logout"
+                                                            accesskey="3">Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HEADER ENDS -->
+                <!-- CONTENT STATRS -->
+                <div class="content">
+                    <div class="t">
+                        <div class="b">
+                            <div class="r">
+                                <div class="l">
+                                    <div class="bl">
+                                        <div class="br">
+                                            <div class="tl">
+                                                <div class="tr">
+                                                    <div class="headLeft">
+                                                        <span class="normal">Welcome</span> <span class="big">
+                                                            <asp:Label ID="lblname" runat="server"></asp:Label></span>
+                                                    </div>
+                                                    <div class="contentbg">
+                                                        <asp:ContentPlaceHolder ID="cphBody" runat="server">
+                                                        </asp:ContentPlaceHolder>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT ENDS -->
+                <br style="clear: both;" />
+                <%--FOOTER STARTS--%>
+                <div class="b">
+                    <div class="bl">
+                        <div class="br">
+                            <div class="footer">
+                                <div class="fright">
+                                </div>
+                                <div class="fleft">
+                                    <a href="Dashboard.aspx" title="Home" accesskey="4">Home</a>&nbsp;|
+                                    <%-- <a href="Operations.aspx"title="Operations" accesskey="4">Operations</a>&nbsp;|   --%>
+                                    <a href="Inventory.aspx" title="Inventory" accesskey="5">Inventory</a>&nbsp;| <a
+                                        href="ManageProfile.aspx" title="Manage Profile" accesskey="6">Manage Profile</a>&nbsp;|
+                                    <a href="StatusSummary.aspx" title="Stat" accesskey="7">Stats</a>&nbsp;| <a href="Default.aspx"
+                                        title="Logout" accesskey="8">Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <%--FOOTER ENDS--%>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="cphScript" runat="server">
+            <style type="text/css" id="s1">
+                @media print {
+                    BODY {
+                        display: none !important;
+                    }
+                }
+            </style>
+            <!--disable right click-->
+
+            <script lang="javascript" type="text/javascript">
+                $(window).bind('contextmenu', false, false);
+            </script>
+
+            <script type="text/javascript">
+                document.onmousedown = clickHandler;
+                function clickHandler() {
+                    e = window.event;
+                    var rightClick = false;
+                    if (e.which) rightClick = (e.which == 3);
+                    else if (e.button) rightClick = (e.button == 2);
+
+                    if (rightClick)
+                        alert("Right click disabled");
+                }
+            </script>
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
