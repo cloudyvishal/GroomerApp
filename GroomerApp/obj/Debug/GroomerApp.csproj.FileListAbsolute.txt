@@ -114,3 +114,12 @@ I:\Project_Repository\Taapas_Repo\FritzysPetCareProsSandbox\GroomerSandbox\Groom
 I:\Project_Repository\Taapas_Repo\FritzysPetCareProsSandbox\GroomerSandbox\GroomerModule\GroomerApp\obj\Debug\GroomerApp.csprojResolveAssemblyReference.cache
 I:\Project_Repository\Taapas_Repo\FritzysPetCareProsSandbox\GroomerSandbox\GroomerModule\GroomerApp\obj\Debug\GroomerApp.dll
 I:\Project_Repository\Taapas_Repo\FritzysPetCareProsSandbox\GroomerSandbox\GroomerModule\GroomerApp\obj\Debug\GroomerApp.pdb
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\bin\GroomerApp.dll.config
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\bin\GroomerApp.dll
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\bin\GroomerApp.pdb
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\bin\BusinessLogic.dll
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\bin\DataBaseHandler35.dll
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\bin\BusinessLogic.pdb
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\obj\Debug\GroomerApp.csprojResolveAssemblyReference.cache
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\obj\Debug\GroomerApp.dll
+C:\Users\Vishal\Documents\GitHub\GroomerApp\GroomerApp\obj\Debug\GroomerApp.pdb

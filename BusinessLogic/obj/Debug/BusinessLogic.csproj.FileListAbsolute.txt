@@ -11,3 +11,7 @@ J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogi
 J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.dll
 J:\Deployment_Section\DeploymentSection\030520150059\GroomerSandbox\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Vishal\Documents\GitHub\GroomerApp\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Vishal\Documents\GitHub\GroomerApp\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Vishal\Documents\GitHub\GroomerApp\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Vishal\Documents\GitHub\GroomerApp\BusinessLogic\obj\Debug\BusinessLogic.pdb
